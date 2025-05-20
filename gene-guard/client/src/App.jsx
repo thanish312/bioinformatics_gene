@@ -13,6 +13,9 @@ import ShieldIcon from '@mui/icons-material/Shield';
 import BiotechIcon from '@mui/icons-material/Biotech';
 import axios from 'axios';
 
+// Set the backend base URL for all axios requests
+axios.defaults.baseURL = 'https://bioinformaticsgene-production.up.railway.app';
+
 import FileUpload from './components/FileUpload';
 import ResultCard from './components/ResultCard';
 import lightTheme from './theme/darkTheme'; // USE THE NEW LIGHT THEME
